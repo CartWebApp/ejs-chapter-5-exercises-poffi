@@ -13,3 +13,5 @@ function every(array, test) {
   // → false
   console.log(every([], n => n < 10));
   // → true
+
+  
