@@ -1,7 +1,5 @@
-require('./includes/scripts.js') // include the scripts used by the chapter
-
-
-
+const SCRIPTS= require('./includes/scripts.js') // include the scripts used by the chapter
+console.log (SCRIPTS)
 
 function dominantDirection(text) {
   let scripts = countBy(text, char => {
@@ -43,6 +41,5 @@ function countBy(group, groupName) {
   // → ltr
   console.log(dominantDirection("Hey, مساء الخير"));
   // → rtl
-  
-  
+
   
